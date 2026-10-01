@@ -60,7 +60,7 @@ class ItemMensalidade extends StatelessWidget {
   const ItemMensalidade({super.key, required this.mensalidade});
 
   String get _valorFormatado =>
-      'R$ ${mensalidade.valor.toStringAsFixed(2).replaceAll('.', ',')}';
+      'R\$ ${mensalidade.valor.toStringAsFixed(2).replaceAll('.', ',')}';
 
   @override
   Widget build(BuildContext context) {

@@ -24,6 +24,6 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('ANA SOUZA'), findsOneWidget);
-    expect(find.text('Matrícula: 45678 • R$ 120,50'), findsOneWidget);
+    expect(find.text('Matrícula: 45678 • R\$ 120,50'), findsOneWidget);
   });
 }
