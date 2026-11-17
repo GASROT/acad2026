@@ -43,3 +43,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# API e dados locais
+# Checkout independente: https://github.com/GASROT/acad2026-api
+/api/
+**/node_modules/
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
